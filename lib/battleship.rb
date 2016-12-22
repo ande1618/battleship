@@ -5,11 +5,6 @@ require "pry"
 
 class Battleship
 
-  # def initialize
-  #   @ai = Player.new
-  #   @human = AiPlayer.new
-  # end
-
   def start_game_play
     puts Messages.welcome_message
       choice = gets.chomp.downcase
