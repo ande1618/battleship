@@ -32,12 +32,6 @@ class Battleship
       end
   end
 
-  def self.ship_placement
-    coordinates = []
-    coordinates << two_unit_coord
-    coordinates << three_unit_coord
-    return coordinates.sort.join(' ')
-  end
 end
 game = Battleship.new
 game.start_game_play
